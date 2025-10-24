@@ -1,0 +1,30 @@
+# pubspec.yaml
+
+name: tax_calculator_local
+description: A local version of the Income Tax Calculator, without Firebase dependency.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Add these packages for database and security
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3 # Often comes with flutter but good to be explicit
+  crypto: ^3.0.3 # For hashing passwords
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpg
