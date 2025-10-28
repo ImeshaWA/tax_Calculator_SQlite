@@ -154,6 +154,23 @@ class _YearSelectionPageState extends State<YearSelectionPage>
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
+
+
+        // **** MODIFICATION START: Add the logo here ****
+        leadingWidth: 150,
+        leading: Padding(
+          padding: const EdgeInsets.only(left: 5.0, top: .0, bottom: .0),
+          child: Image.asset(
+            'assets/logo.jpg',
+            height: 300, // Adjust size as needed
+            width: 300,
+            fit: BoxFit.contain, // Ensures the logo fits well
+          ),
+        ),
+
+
+
+
         actions: [
           IconButton(
             icon: const Icon(Icons.logout, color: Colors.grey),
