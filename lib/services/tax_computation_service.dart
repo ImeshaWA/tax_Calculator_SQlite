@@ -6,7 +6,11 @@ class TaxComputationService {
   final TaxDataService service = TaxDataService();
 
   // Fixed system constants
-  static const double personalRelief = 1800000.0;
+  static double get personalRelief {
+    return TaxDataService().selectedTaxYear == "2025/2026"
+        ? 1800000.0
+        : 1200000.0;
+  }
   static const double solarPanelSystemValue = 600000.0;
 
   // 1. Estimated Assessable Income

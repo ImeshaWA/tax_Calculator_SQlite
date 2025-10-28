@@ -576,7 +576,7 @@ class _EstimatedTaxPageState extends State<EstimatedTaxPage>
                               taxService.taxLiabilityWithoutForeign(),
                             ),
                             summaryRow(
-                              "Tax Liability (Foreign @ 15%)",
+                              "Foreign Tax Liability",
                               taxService.annualForeignIncomeLiability(),
                             ),
                             summaryRow(
@@ -630,9 +630,9 @@ class _EstimatedTaxPageState extends State<EstimatedTaxPage>
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   const Text(
-                                    "Tax Payable",
+                                    "Tax Payable ",
                                     style: TextStyle(
-                                      fontSize: 19,
+                                      fontSize: 15,
                                       fontWeight: FontWeight.bold,
                                       color: neutral900,
                                     ),

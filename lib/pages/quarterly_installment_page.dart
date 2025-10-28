@@ -302,7 +302,7 @@ class _QuarterlyInstallmentsPageState extends State<QuarterlyInstallmentsPage>
                           // Added 'const' here as suggested by linter
                           child: const Icon(
                             Icons.arrow_back_rounded,
-                            color: primaryColor,
+                            color: Color.fromARGB(255, 9, 11, 10),
                             size: 20,
                           ),
                         ),
@@ -348,23 +348,23 @@ class _QuarterlyInstallmentsPageState extends State<QuarterlyInstallmentsPage>
                           animationIndex: 0,
                           children: [
                             summaryRow(
-                              "Total 1st Installment Employment Income",
+                              "Total Employment Income",
                               _calculateQuarterlyIncome('employment', 1),
                             ),
                             summaryRow(
-                              "Total 1st Installment Business Income",
+                              "Total Business Income",
                               _calculateQuarterlyIncome('business', 1),
                             ),
                             summaryRow(
-                              "Total 1st Installment Investment Income",
+                              "Total Investment Income",
                               _calculateQuarterlyIncome('investment', 1),
                             ),
                             summaryRow(
-                              "Total 1st Installment Other Income",
+                              "Total Other Income",
                               _calculateQuarterlyIncome('other', 1),
                             ),
                             summaryRow(
-                              "Total 1st Installment Foreign Income",
+                              "Total Foreign Income",
                               _calculateQuarterlyIncome('foreign', 1),
                             ),
                           ],
@@ -376,23 +376,23 @@ class _QuarterlyInstallmentsPageState extends State<QuarterlyInstallmentsPage>
                           animationIndex: 1,
                           children: [
                             summaryRow(
-                              "Total 2nd Installment Employment Income",
+                              "Total Employment Income",
                               _calculateQuarterlyIncome('employment', 2),
                             ),
                             summaryRow(
-                              "Total 2nd Installment Business Income",
+                              "Total Business Income",
                               _calculateQuarterlyIncome('business', 2),
                             ),
                             summaryRow(
-                              "Total 2nd Installment Investment Income",
+                              "Total Investment Income",
                               _calculateQuarterlyIncome('investment', 2),
                             ),
                             summaryRow(
-                              "Total 2nd Installment Other Income",
+                              "Total Other Income",
                               _calculateQuarterlyIncome('other', 2),
                             ),
                             summaryRow(
-                              "Total 2nd Installment Foreign Income",
+                              "Total Foreign Income",
                               _calculateQuarterlyIncome('foreign', 2),
                             ),
                           ],
@@ -405,23 +405,23 @@ class _QuarterlyInstallmentsPageState extends State<QuarterlyInstallmentsPage>
                           animationIndex: 2,
                           children: [
                             summaryRow(
-                              "Total 3rd Installment Employment Income",
+                              "Total Employment Income",
                               _calculateQuarterlyIncome('employment', 3),
                             ),
                             summaryRow(
-                              "Total 3rd Installment Business Income",
+                              "Total Business Income",
                               _calculateQuarterlyIncome('business', 3),
                             ),
                             summaryRow(
-                              "Total 3rd Installment Investment Income",
+                              "Total Investment Income",
                               _calculateQuarterlyIncome('investment', 3),
                             ),
                             summaryRow(
-                              "Total 3rd Installment Other Income",
+                              "Total Other Income",
                               _calculateQuarterlyIncome('other', 3),
                             ),
                             summaryRow(
-                              "Total 3rd Installment Foreign Income",
+                              "Total Foreign Income",
                               _calculateQuarterlyIncome('foreign', 3),
                             ),
                           ],
@@ -433,23 +433,23 @@ class _QuarterlyInstallmentsPageState extends State<QuarterlyInstallmentsPage>
                           animationIndex: 3,
                           children: [
                             summaryRow(
-                              "Total 4th Installment Employment Income",
+                              "Total Employment Income",
                               _calculateQuarterlyIncome('employment', 4),
                             ),
                             summaryRow(
-                              "Total 4th Installment Business Income",
+                              "Total Business Income",
                               _calculateQuarterlyIncome('business', 4),
                             ),
                             summaryRow(
-                              "Total 4th Installment Investment Income",
+                              "Total Investment Income",
                               _calculateQuarterlyIncome('investment', 4),
                             ),
                             summaryRow(
-                              "Total 4th Installment Other Income",
+                              "Total Other Income",
                               _calculateQuarterlyIncome('other', 4),
                             ),
                             summaryRow(
-                              "Total 4th Installment Foreign Income",
+                              "Total Foreign Income",
                               _calculateQuarterlyIncome('foreign', 4),
                             ),
                           ],

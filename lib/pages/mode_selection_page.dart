@@ -366,7 +366,7 @@ class _ModeSelectionPageState extends State<ModeSelectionPage>
                                 "Select your income type",
                                 style: TextStyle(
                                   fontSize: 14,
-                                  color: Color(0xFF10B981),
+                                  color: Color.fromARGB(255, 12, 184, 127),
                                   fontWeight: FontWeight.w500,
                                 ),
                               ),
@@ -417,7 +417,7 @@ class _ModeSelectionPageState extends State<ModeSelectionPage>
                           "Choose your primary income source to get started",
                           style: TextStyle(
                             fontSize: 16,
-                            color: Colors.white70,
+                            color: Colors.white,
                             height: 1.4,
                           ),
                         ),
